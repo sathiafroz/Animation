@@ -1,0 +1,16 @@
+.box{
+	height: 120px;
+	width: 120px;
+	background-color: blue;
+	position: relative;
+	animation-name: test;
+	animation-duration: 6s; 
+	border-radius: 50%;
+}
+@keyframes test{
+	0%{background-color: blue; left:0px; top:0px;}
+	25%{background-color: red; left:300px; top:0px;}
+	50%{background-color: yellow; left:300px; top:300px;}
+	75%{background-color: green; left:0px; top:300px;}
+	100%{background-color: gray;left:0px; top:0px;}
+}
